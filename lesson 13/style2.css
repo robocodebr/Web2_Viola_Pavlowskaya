@@ -1,0 +1,38 @@
+.container{
+    display: flex;
+    background: #ddab83;
+    height: 500px;
+    padding: 10px;
+    margin: 10px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.container div {
+    width: 46%;
+    height: 98%;
+    background: #33df11;
+    margin: 1%;
+}
+.container2 {
+    justify-content: flex-end;
+    align-items:center ;
+    background: chartreuse;
+    justify-content: space-between;
+}
+.container2 div {
+    width: 23%;
+}
+.container6 {
+
+    background: chartreuse;
+   flex-direction: column;
+   flex-wrap: nowrap;
+}
+.container6 div {
+    width: 98%;
+    flex-basis: 15%;
+}
+
+.container6 #d {
+    flex-basis: 35%;
+}
