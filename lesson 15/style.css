@@ -1,0 +1,73 @@
+*{
+    color:aqua;
+}
+img {
+    width: 720px;
+    height: 538px ;
+}
+.heading {
+
+}
+#head{
+
+}
+
+.my_table {
+    border: 2px dotted #000;
+    margin-bottom: 100px;
+    padding: 5px;
+
+}
+.my_table td  .my_table th{
+    border: 1px solid #000;
+}
+h1.heading {
+    color:blueviolet;
+}
+
+.my_table>tr {
+    background: brown;
+}
+td, th {
+    background: rgba(20, 255, 196, 0.616)98;
+}
+td:hover, th:hover {
+    background: rgb(255, 75, 75);
+}
+a:visited {
+    color:rgb(255, 75, 75)
+}
+a:focus {
+    font-size: 30px;
+
+}
+a:active {
+    font-size: 45px; 
+    color: silver;
+}
+a::after{
+    content: "/"
+}
+a::before{
+    content: "/"
+}
+table, td, th{
+    border: 5px solid #000;
+    text-align: center;
+}
+.readBlock{
+    width: 90px;
+    height: 90px;
+    background: rgb(231, 54, 54);
+    color: aliceblue;
+}
+.blue{
+   
+    background: rgb(54, 101, 231);
+    color: rgb(8, 8, 8);
+}
+
+img:hover {
+    width: 740px;
+    height: 558px ;
+}
